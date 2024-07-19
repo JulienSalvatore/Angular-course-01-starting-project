@@ -8,6 +8,19 @@ import {
   output,
 } from '@angular/core';
 
+// add all data in an interface (or in a type) variable to clear the code
+// type User = {
+//   id: string;
+//   avatar: string;
+//   name: string;
+// };
+// OR
+interface User {
+  id: string;
+  avatar: string;
+  name: string;
+}
+
 @Component({
   selector: 'app-user',
   standalone: true,
@@ -15,11 +28,7 @@ import {
   styleUrl: './user.component.css',
 })
 export class UserComponent {
-  @Input({ required: true }) user!: {
-    id: string;
-    avatar: string;
-    name: string;
-  };
+  @Input({ required: true }) user!: User;
   @Output() select = new EventEmitter<string>();
 
   get imagePath() {
