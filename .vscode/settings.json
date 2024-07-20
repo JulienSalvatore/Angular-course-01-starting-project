@@ -2,7 +2,11 @@
   "folder-color.pathColors": [
     {
       "folderPath": "01-starting-project\\src\\app\\tasks\\task\\",
-      "color": "foldercolorizer.LemonChiffon"
+      "color": "foldercolorizer.Buff"
+    },
+    {
+      "folderPath": "01-starting-project\\src\\app\\tasks\\",
+      "color": "foldercolorizer.teal"
     }
   ]
 }
