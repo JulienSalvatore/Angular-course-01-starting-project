@@ -12,5 +12,10 @@
       "folderPath": "01-starting-project\\src\\app\\tasks\\new-task\\",
       "color": "foldercolorizer.DeepSkyBlue"
     }
-  ]
+  ],
+  "now.instance.user.name": "",
+  "now.instance.host.url": "",
+  "now.instance.OAuth.client.id": "",
+  "now.instance.user.password": "",
+  "now.instance.OAuth.client.secret": ""
 }
